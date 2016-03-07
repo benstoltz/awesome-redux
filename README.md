@@ -17,6 +17,12 @@
 
 ### Presentations
 * [A introduction about Redux](https://github.com/chentsulin/redux-intro)
+* [Real World Redux](https://speakerdeck.com/chrisui/real-world-redux)
+* [The power of higher-order reducers](http://slides.com/omnidan/hor)
+* [Reactive Architecture with Redux and Angular](http://slides.com/evanschultz-1/reactive-angular)
+* [Redux Internals](http://slides.com/vladimirnovick/reduxinternals)
+* [Replacing Angular 1 with React and Redux](http://slides.com/scottprue-2/deck)
+* [A tour on the React ecosystem](http://slides.com/cguedes/a-tour-on-react-ecosystem)
 
 ---
 
@@ -67,10 +73,23 @@
 * [Managing Side Effects In React + Redux Using Sagas](http://jaysoo.ca/2016/01/03/managing-processes-in-redux-using-sagas)
 * [Secure Your React and Redux App with JWT Authentication](https://auth0.com/blog/2016/01/04/secure-your-react-and-redux-app-with-jwt-authentication)
 * [Getting started with Redux and GraphQL](https://medium.com/@thisbejim/getting-started-with-redux-and-graphql-8384b3b25c56#.3anuh1m7x)
+* [Data Flows with Angular 2 and Redux](http://www.sitepoint.com/data-flows-angular-2-redux)
+* [Simple Routing with Redux and React](http://jamesknelson.com/simple-routing-redux-react)
+* [Implementing a smart Login Modal with Redux, reselect and ReactJS](https://medium.com/@dorsha/implement-login-modal-with-redux-reselect-and-reactjs-668c468bcbe3#.t5n3fv49o)
+* [Redux nowadays : From actions creators to sagas](http://riadbenguella.com/from-actions-creators-to-sagas-redux-upgraded)
+* [Master Complex Redux Workflows with Sagas](http://konkle.us/master-complex-redux-workflows-with-sagas)
+* [Angular 2 Application Architecture - Building Flux Apps with Redux and Immutable.js](http://blog.jhades.org/angular-2-application-architecture-building-flux-like-apps-using-redux-and-immutable-js-js)
+* [React, Redux and Immutable.js: Ingredients for Efficient Web Applications](http://www.toptal.com/react/react-redux-and-immutablejs)
+* [An Introduction to React Redux (Part 1)](https://shellmonger.com/2016/02/16/an-introduction-to-react-redux-part-1)
+* [An Introduction to React Redux (Part 2)](https://shellmonger.com/2016/02/19/an-introduction-to-react-redux-part-2)
+* [Rules For Structuring (Redux) Applications](http://jaysoo.ca/2016/02/28/organizing-redux-application)
 
 ---
 
 ### Boilerplate
+* [**redux-webpack-es6-boilerplate** - Redux boilerplate using Webpack / hot module reloading (HMR) / Redux DevTools and ES6 + JSX via Babel](https://github.com/nicksp/redux-webpack-es6-boilerplate)
+* [**react-production-starter** - React boilerplate with isomorphic rendering, async react-router routes, async redux reducers, async data fetching, and code-splitting.](https://github.com/jaredpalmer/react-production-starter) :metal: :fire:
+* [**mern.io** - Simple full-stack boilerplate to get started with building isomorphic/universal apps, handles api part and also offers a cli to generate the boilerplate](https://github.com/hashnode/mern-starter) :metal: :fire:
 * [**react-redux-starter** - Universal React + Redux with Cordova support and an opinionated directory structure](https://github.com/combine/react-redux-starter)
 * [**react-slingshot** - React Redux Starter Kit with hot reloading, tests and example app](https://github.com/coryhouse/react-slingshot)
 * [**react-redux-boilerplate** - React Redux Boilerplate](https://github.com/knowbody/react-redux-boilerplate)
@@ -109,8 +128,9 @@
 * [**Hapi React Starter Kit** - Universal, Redux, Redis, Socket.io, Intl] (https://github.com/Dindaleon/hapi-react-starter-kit)
 * [**Universal Redux Template** - A clean, extensible react + redux boilerplate with universal rendering, testing and more] (https://github.com/mz026/universal-redux-template)
 * [**universal-js** - A universal Javascript starter kit inc. React, Redux, Redux Dev Tools, Universal Redux Router, CSS Modules, hot module reloading, Babel for ES2015+ and ESLint](https://github.com/colinmeinke/universal-js)
-* [**redux-react-material-boilerplate** - Simple boilerplate inc. React, Redux, Hot reaload and Material-ui](https://github.com/WapGeaR/redux-react-material-boilerplate)
+* [**redux-react-material-boilerplate** - Simple boilerplate inc. React, Redux, Hot reload and Material-ui](https://github.com/WapGeaR/redux-react-material-boilerplate)
 * [**react-redux-starter** - React Redux Starter](https://github.com/exeto/react-redux-starter)
+* [**Reduxible** - The Fast and Easy way to make a React + Redux apps](https://github.com/Pitzcarraldo/reduxible)
 
 ---
 
@@ -134,6 +154,7 @@
     * [**redux-promise** - FSA-compliant promise middleware for Redux](https://github.com/acdlite/redux-promise)
     * [**redux-simple-promise** - FSA-compliant promise middleware for Redux with simple behaviour with minimal boilerplate declarations](https://github.com/alanrubin/redux-simple-promise)
     * [**redux-async** - FSA-compliant promise property middleware for Redux](https://github.com/symbiont-io/redux-async)
+    * [**redux-async-initial-state** - Set initial Redux state asynchronously](https://github.com/KELiON/redux-async-initial-state)
     * [**redux-await** - Manage async redux actions sanely](https://github.com/kolodny/redux-await)
     * [**redux-rx** - RxJS utilities for Redux](https://github.com/acdlite/redux-rx)
     * [**reselect** - Selector library for Redux like in NuclearJS](https://github.com/faassen/reselect)
@@ -164,6 +185,7 @@
     * [**redux-requests** - Avoid issuing duplicate HTTP requests](https://github.com/idolize/redux-requests)
     * [**redux-owl** - Redux One Way Linking](https://github.com/rt2zz/redux-owl)
     * [**redux-act** - An opinionated lib to create actions and reducers for Redux](https://github.com/pauldijou/redux-act)
+    * [**redux-act-async** - Reducing boilerplate when creating asynchronous actions in Redux](https://github.com/FredericHeem/redux-act-async)
     * [**redux-raven-middleware** - Redux middleware for sending error reports to Sentry through raven-js](https://github.com/ngokevin/redux-raven-middleware)
     * [**redux-routing** - Universal routing built on top of redux](https://github.com/callum/redux-routing)
     * [**redux-undo** - Simple undo/redo functionality for redux state containers](https://github.com/omnidan/redux-undo)
@@ -180,7 +202,10 @@
     * [**redux-future** - FSA-compliant future monad middleware for redux](https://github.com/stoeffel/redux-future)
     * [**redux-io** - FSA-compliant io monad middleware for redux](https://github.com/stoeffel/redux-io)
     * [**redux-either** - FSA-compliant either monad middleware for redux](https://github.com/stoeffel/redux-either)
-
+    * [**redux-timeout** - Trigger actions based on timeouts](https://github.com/gpfunk/redux-timeout)
+    * [**redux-observable-middleware** - Redux middleware for subscribing to observables](https://github.com/d6u/redux-observable-middleware)
+    * [**redux-deferred** - Redux middleware for jQuery Deferred Object](https://github.com/wyvernnot/redux-deferred)
+    
 * Tools
     * [**redux-devtools** - DevTools for Redux with hot reloading, action replay, and customizable UI](https://github.com/gaearon/redux-devtools)
     * [**react-router-redux** - Ruthlessly simple bindings to keep react-router and redux in sync](https://github.com/rackt/react-router-redux)
@@ -190,10 +215,13 @@
     * [**generator-redux-app** - Scaffold out a redux app with counter example and react-router](https://github.com/chentsulin/generator-redux-app)
     * [**redux-loader** - A high order component for Redux. This components loads resources and passes them to the child components via props](https://github.com/sporto/redux-loader)
     * [**redux-rest** - Automatically create Flux action constants, action creators and Redux reducers for your REST API](https://github.com/Kvoti/redux-rest)
+    * [**react-reach** - A library to communicate with Graphql through Redux](https://github.com/kennetpostigo/react-reach)
     * [**redux-api** - Flux REST API for redux infrastructure](https://github.com/lexich/redux-api)
+    * [**firedux** - Firebase + Redux for ReactJS](https://github.com/adjohnson916/firedux)
     * [**vstack-router** - Universal router](https://github.com/vslinko/vstack-router)
     * [**redux-ecommerce** - E-commerce flux with redux](https://github.com/Tom-Alexander/redux-ecommerce)
     * [**redux-form** - An ES7 decorator for forms using Redux and React](https://github.com/erikras/redux-form)
+    * [**redux-form-validation** - Form validation for controlled & uncontrolled inputs](https://github.com/posabsolute/redux-form-validator)
     * [**https://github.com/calesce/redux-slider-monitor](https://github.com/calesce/redux-slider-monitor)
     * [**updeep** - Easily update nested frozen objects and arrays in a declarative and immutable manner](https://github.com/substantial/updeep)
     * [**redux-immutable** - Streamlines use of Immutable.js with Redux reducers.](https://github.com/gajus/redux-immutable)
@@ -201,6 +229,7 @@
     * [**icedam** - Just-in-time immutability: freezes data sent to views.](https://github.com/winkler1/icedam)
     * [**react-inline-grid** - Predictable flexbox based grid for React using Redux and Immutable-js.](https://github.com/broucz/react-inline-grid)
     * [**redux-easy-actions** - Sugar library for creating Redux or Flux actions](https://github.com/grigory-leonenko/redux-easy-actions)
+    * [**redux-mount** - Mount state data and change its state values on the fly](https://github.com/popc0rn/redux-mount)
     * [**redux-multi** - Dispatch multiple actions from one action creator](https://github.com/ashaffer/redux-multi)
     * [**immu** - A tiny, fail-fast, lazy, immutable Javascript objects library](https://github.com/scottcorgan/immu)
     * [**Generate standard action creators and reducers for CRUD applications**](https://github.com/Versent/redux-crud)
@@ -231,6 +260,10 @@
     * [**redux-loop** - Sequence your effects naturally and purely by returning them from your reducers](https://github.com/raisemarketplace/redux-loop)
     * [**redux-orm** - A small, simple and immutable ORM to manage data in your Redux store](https://github.com/tommikaikkonen/redux-orm)
     * [**redux-bacon** - Utilities for attaching Bacon.js to Redux](https://github.com/aparticka/redux-bacon)
+    * [**rereduce** - Reducer library for Redux](https://github.com/slorber/rereduce)
+    * [**redux-decorators** - A ridiculously good syntax for working with Redux and TypeScript. Currently limited to Angular 2 but could potentially be used elsewhere](https://github.com/KarlPurk/redux-decorators)
+    * [**redux-test-reducer** - Simple and clean testing mechanism for Redux reducers](https://github.com/amsardesai/redux-test-reducer)
+    * [**redux-devtools-inspector** - Another Redux DevTools Monitor](https://github.com/alexkuz/redux-devtools-inspector)
 
 * Frameworks
     * [**Vdux** - World's smallest framework.  Stateless Virtual DOM <-> Redux](https://github.com/ashaffer/vdux)
