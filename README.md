@@ -25,6 +25,7 @@
 * [Redux Internals](http://slides.com/vladimirnovick/reduxinternals)
 * [Replacing Angular 1 with React and Redux](http://slides.com/scottprue-2/deck)
 * [A tour on the React ecosystem](http://slides.com/cguedes/a-tour-on-react-ecosystem)
+* [Redux from Twitter hype to production](http://slides.com/jenyaterpil/redux-from-twitter-hype-to-production#/)
 
 ---
 
@@ -45,6 +46,7 @@
 * [Redux without profanity](https://tonyhb.gitbooks.io/redux-without-profanity/content/index.html)
 * [React and Redux Single Page Applications Resources](https://medium.com/@sapegin/react-and-redux-single-page-applications-resources-22cd859b0c1d#.o66rolp0p)
 * [A categorized list of Redux-related addons, libraries, and utilities](https://github.com/markerikson/redux-ecosystem-links)
+* [Building the F8 2016 App (Redux, GraphQL, React Native)](http://makeitopen.com/tutorials/building-the-f8-app/planning/)
 
 ---
 
@@ -104,6 +106,7 @@
 * [Deep Introduction to Redux - Seriese 1/3](https://www.codementor.io/reactjs/tutorial/intro-to-react-redux-pros)
 * [Universal Rendering with Redux and React-Router - Seriese 2/3](https://www.codementor.io/reactjs/tutorial/redux-server-rendering-react-router-universal-web-app)
 * [Unit Testing Redux Apps - Seriese 3/3](https://www.codementor.io/reactjs/tutorial/redux-unit-test-mocha-mocking)
+* [Using Aurelia and Redux together for good times all around](https://zen.id.au/using-aurelia-and-redux-together-for-good-times-all-around/)
 
 ---
 
@@ -201,9 +204,6 @@
     * [**redux-storage** - Persistence layer for redux with flexible backends](https://github.com/michaelcontento/redux-storage)
     * [**redux-pouchdb** - sync store state to pouchdb](https://github.com/vicentedealencar/redux-pouchdb)
     * [**redux-vstack-router** - Helpers to bind vstack-router to redux](https://github.com/vslinko/redux-vstack-router)
-    * [**redux-client-next** - Resolve client promises with redux actions](https://github.com/quirinpa/redux-client-next)
-    * [**redux-next** - Recurse redux actions](https://github.com/quirinpa/redux-next)
-    * [**redux-delay** - Delay redux actions](https://github.com/quirinpa/redux-delay)
     * [**redux-create-store**](https://github.com/phated/redux-create-store)
     * [**redux-batched-subscribe** - Batch calls to subscribe handlers with a custom function, including debouncing or React batched updates.](https://github.com/tappleby/redux-batched-subscribe)
     * [**redux-logger** - Logger middleware for Redux](https://github.com/fcomb/redux-logger)
@@ -235,8 +235,12 @@
     * [**redux-deferred** - Redux middleware for jQuery Deferred Object](https://github.com/wyvernnot/redux-deferred)
     * [**redux-task** - A simple Side Effects manager for redux](https://github.com/sskyy/redux-task)
     * [**redux-gen** - Generator based middleware for redux](https://github.com/weo-edu/redux-gen)
+    * [**redux-authentication** - Authentication component for Redux](https://github.com/Jackong/redux-authentication)
+    * [**socket.io-redux** - Redux middleware to emit action via socket.io](https://github.com/sergiodxa/socket.io-redux)
+    * [**redux-catch** - Error catcher middleware for Redux reducers and middlewares](https://github.com/sergiodxa/redux-catch)
 
 * Tools
+    * [**reactotron** - Control, monitor, and instrument your React Native apps from the comfort of your TTY](https://github.com/skellock/reactotron)
     * [**redux-test-recorder** - Redux test recorder is a redux middleware + included component for automagically generating tests for your reducers based on the actions in your app](https://github.com/conorhastings/redux-test-recorder)
     * [**redux-devtools** - DevTools for Redux with hot reloading, action replay, and customizable UI](https://github.com/gaearon/redux-devtools)
     * [**react-router-redux** - Ruthlessly simple bindings to keep react-router and redux in sync](https://github.com/rackt/react-router-redux)
@@ -299,6 +303,8 @@
     * [**redux-cli** - An opinionated CLI for building redux/react apps quicker](https://github.com/SpencerCDixon/redux-cli)
     * [**redux-saga-rxjs** - RxJS implementation of Saga pattern for redux](https://github.com/salsita/redux-saga-rxjs)
     * [**redux-actions-assertions** - Assertions for redux actions testing](https://github.com/dmitry-zaets/redux-actions-assertions)
+    * [**redux-duck** - Helper function to create Redux modules using the ducks-modular-redux proposal](https://github.com/sergiodxa/redux-duck)
+    * [**redux-dispatch-cli** - A CLI tool for Redux remote dispatch. Used in remote-redux-devtools](https://github.com/jhen0409/redux-dispatch-cli)
 
 * Frameworks
     * [**Vdux** - World's smallest framework.  Stateless Virtual DOM <-> Redux](https://github.com/ashaffer/vdux)
@@ -310,6 +316,7 @@
     * [**Keo** - Plain functions for a more functional Deku approach to creating React components, with functional goodies such as compose, memoize, etc... for free](https://github.com/Wildhoney/Keo)
     * [**plait** - A minimal JavaScript framework for building reactive web components](https://github.com/wildlyinaccurate/plait)
     * [**reactuate** — A React/Redux stack (not a boilerplate!) with a focus on Domain-Driven Design](https://github.com/reactuate/reactuate)
+    * [**meatier** - Like meteor, but meatier](https://github.com/mattkrick/meatier)
 
 ---
 
@@ -364,6 +371,7 @@
     * [angular2-redux-example - Example project for using pure Redux with Angular 2 and TypeScript](https://github.com/InfomediaLtd/angular2-redux-example)
     * [ng2-redux - Angular 2 bindings for Redux](https://github.com/wbuchwalter/ng2-redux)
     * [angular2-redux - Wrapper components for using Redux in an Angular2 application](https://github.com/InfomediaLtd/angular2-redux)
+    * [ng2redux - Angular 2 bindings for Redux implemented with TypeScript and decorators](https://github.com/forforeach/ng2redux)
 
 ---
 
@@ -378,12 +386,12 @@
 ### [Polymer - Build modern apps using web components](https://www.polymer-project.org)
 * Examples
     * [polymer-redux](https://github.com/tur-nr/polymer-redux)
+    * [polymer-redux-store](https://github.com/lastmjs/polymer-redux-store)
 
 ---
 
 ### [Ember - A framework for creating ambitious web applications](http://emberjs.com)
 * Examples
-    * [emberedux](https://github.com/gcollazo/emberedux)
 
 ---
 
